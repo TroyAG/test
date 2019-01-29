@@ -1,0 +1,128 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/000/182/534/large/ned-rogers-157542-forest-bg-final-sig.jpg?1443927441);
+  background-color: #e4c55f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 280px;
+}
+
+.App-header {
+  background-color: #0000;
+  color: white;
+  height: 390px;
+  
+
+ 
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-bottom: 4rem;
+}
+
+.create  {
+  position: relative;
+  top: -3rem;
+  
+
+}
+
+input{
+  border-color: green !important;
+ 
+}
+.purple-input{
+  border-color: rgba(255, 0, 0, 0);
+}
+input{
+  border-color: rgba(255, 0, 0, 0);
+}
+.btn-rounded{
+  border-color: rgba(255, 0, 0, 0);
+  color: slategrey;
+  background-color: rgb(67, 104, 31);
+}
+.create .card  {
+  border-radius: 55px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 2rem 12rem;
+  background-color: rgb(52, 68, 75);
+  opacity: 80%;
+background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .create .card  {
+      padding: 2rem 8rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  .create .card  {
+      padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .create .card  {
+      padding: 2rem 2rem;
+    }
+}
+
+.task-icon:before  {
+  content: '';
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.deleteall  {
+
+  padding: 1rem 0;
+}
+
+.deleteall .red-btn  {
+  background-color: rgb(67, 104, 31);
+  border-radius: 55px;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      color: green;
+}
+
+.link  {
+
+  padding: 2rem 0;
+}
+
+.link a {
+
+  color: #212121;
+  font-size: large;
+}
+
+.link a:visited  {
+
+  color: #212121;
+}
+.btn-rounded:hover{
+  background-color: mediumseagreen;
+  color: gray;
+  border-color: rgb(73, 39, 15);
+}
